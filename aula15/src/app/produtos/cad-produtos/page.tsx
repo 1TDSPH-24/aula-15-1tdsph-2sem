@@ -40,7 +40,7 @@ export default function CadProdutos() {
       <h1>Cadastro de Produtos</h1>
 
       <div>
-        <form action="" method="post" onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <div>
             <label>Nome do produto:</label>
             <input

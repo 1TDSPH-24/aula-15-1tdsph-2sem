@@ -18,7 +18,10 @@ export async function POST(request:Request){
 
     //Criar um ID no novo OBJETO que será inserido no base.json.
     // const produto = {nome,preco,estoque} as TipoProduto;
+    // const produto = {nome,preco,estoque} as TipoProduto;
     produto.id = ( produtos[produtos.length-1].id + 1);
+
+    console.log(produto);
 
     //Inserir o novo produto que já possui inclusive ID na lista de produtos:
     console.log (produto)
