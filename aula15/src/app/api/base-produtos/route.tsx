@@ -21,6 +21,7 @@ export async function POST(request:Request){
     produto.id = ( produtos[produtos.length-1].id + 1);
 
     //Inserir o novo produto que já possui inclusive ID na lista de produtos:
+    console.log (produto)
     produtos.push(produto);
 
     //Processo de manipulação do arquuivo com promises e process.cwd para colocar a lista no arquivo e atualizar ele.
